@@ -7,17 +7,17 @@
             var ctrl = this;
 
             ctrl.speed = 700;
-            ctrl.mainViewStyle = 'anim-fade';
-            ctrl.page1Style = 'anim-zoom-out';
-            ctrl.page2Style = 'anim-slide-below-fade';
+            // ctrl.mainViewStyle = 'anim-fade';
+            // ctrl.page1Style = 'anim-zoom-out';
+            // ctrl.page2Style = 'anim-slide-below-fade';
 
-            $rootScope.$on('animStart', function() {
-                $log.log('animStart');
-            });
+            // $rootScope.$on('animStart', function() {
+            //     $log.log('animStart');
+            // });
 
-            $rootScope.$on('animEnd', function() {
-                $log.log('animEnd');
-            });
+            // $rootScope.$on('animEnd', function() {
+            //     $log.log('animEnd');
+            // });
         }
     ]);
 
